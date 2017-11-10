@@ -51,6 +51,22 @@ div li {
     padding: 1rem 2rem 1rem 0;
 }
 
+.slogan-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+  background-color: white;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  padding: 1.5rem 5rem;
+  line-height: 2.4rem;
+}
+
 /* Store Section Styles */
 /* Philosophy and Appointments Section Styles */
 /* Footer Styles */
