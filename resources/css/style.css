@@ -68,5 +68,30 @@ h1 {
 }
 
 /* Store Section Styles */
+.store-container {
+display: flex;
+justify-content: center;
+align-items: flex-start;
+}
+
+.store-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.paper {
+  width: 3.5rem;
+}
+
+.ruler-truck {
+  width: 5rem;
+}
+
 /* Philosophy and Appointments Section Styles */
 /* Footer Styles */
