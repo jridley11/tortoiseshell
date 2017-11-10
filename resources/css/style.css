@@ -1,0 +1,56 @@
+/* Universal Styles */
+html {
+  font-size: 18px;
+}
+
+body {
+  line-height: 1.4rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+
+.site-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Main Banner Section Styles */
+.main-banner {
+  background-image: url("../images/glasses-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 1rem;
+  height: 30rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: cadetblue;
+  color: white;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+header img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+div ul {
+  display: flex;
+}
+
+div li {
+    padding: 1rem 2rem 1rem 0;
+}
+
+/* Store Section Styles */
+/* Philosophy and Appointments Section Styles */
+/* Footer Styles */
