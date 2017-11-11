@@ -102,6 +102,7 @@ align-items: flex-start;
 .info  {
   width: 35%;
   margin-right: 5%;
+  margin-bottom: 3rem;
 
 }
 
@@ -113,3 +114,18 @@ h4 {
   font-weight: bold;
 }
 /* Footer Styles */
+.footer-container {
+  display: flex;
+  }
+
+  footer {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+}
+
+footer img {
+  margin-right: 1rem;
+  height: 1.5rem;
+}
