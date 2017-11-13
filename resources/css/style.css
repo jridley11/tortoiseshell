@@ -14,6 +14,18 @@ body {
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 850px) {
+  .site-container {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .site-container {
+    width: 100%;
+  }
+}
+
 /* Main Banner Section Styles */
 .main-banner {
   background-image: url("../images/glasses-bg.png");
@@ -22,6 +34,21 @@ body {
   background-size: cover;
   padding-top: 1rem;
   height: 30rem;
+}
+
+@media only screen and (max-width: 850px) {
+  .main-banner {
+    padding-top: 0rem;
+    height: 22rem;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .main-banner {
+    background-position: 20%;
+    padding-top: 0rem;
+    height: 17rem;
+  }
 }
 
 header {
@@ -43,17 +70,40 @@ header img {
   padding-right: 1rem;
 }
 
+@media only screen and (max-width: 620px) {
+  header span, header li {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: inline;
+    padding: 1rem 2rem 1rem 0;
+  }
+}
+
+@media only screen and (min-width: 620px) {
+  .mobile-nav {
+    display: none;
+  }
+}
+
 div ul {
   display: flex;
 }
 
-div li {
+header li {
     padding: 1rem 2rem 1rem 0;
 }
 
 .slogan-container {
   display: flex;
   justify-content: flex-end;
+}
+
+@media only screen and (max-width: 620px) {
+  .slogan-container {
+
+  }
 }
 
 h1 {
@@ -67,6 +117,22 @@ h1 {
   line-height: 2.4rem;
 }
 
+@media only screen and (max-width: 850px) {
+  h1 {
+    font-size: 1.33rem;
+    margin-top: 5rem;
+    margin-right: 2rem;
+    padding: 0.75rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  h1 {
+    font-size: 1rem;
+    margin-top: 9rem;
+    padding: 1rem;
+  }
+}
 /* Store Section Styles */
 .store-container {
 display: flex;
